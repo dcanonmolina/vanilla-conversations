@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat Window</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/lib/twilio-conversations.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="app-container">
+        <div id="top-bar">
+            <label id="User">User:</label>
+            <input type="text" id="top-input" placeholder="Enter user identity...">
+            <button id="top-button">Login</button>
+        </div>
+        <div id="myChat">
+            <div id="chat-list-panel">
+                <!-- Chat list will be appended here -->
+                <button id="create-chat-button">+</button>
+            </div>
+            <div id="chat-container">
+                <div id="chat-window">
+                    <!-- Messages will be appended here -->
+                </div>
+                <div id="input-bar">
+                    <input type="text" id="message-input" placeholder="Type a message...">
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
